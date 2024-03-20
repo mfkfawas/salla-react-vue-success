@@ -1,0 +1,16 @@
+.promo-input::placeholder {
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.logo {
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.logo:hover {
+  transform: scale(0.9);
+}
