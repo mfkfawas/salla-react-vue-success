@@ -1,4 +1,4 @@
-import { Component, Fragment, Host, Prop, State, h } from '@stencil/core';
+import { Component, Fragment, Host, State, h } from '@stencil/core';
 import { Item, getItems, getCoupons } from '../../services/mock-api-service';
 import promoIcon from '../../assets/items/promo-icon.svg';
 
