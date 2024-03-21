@@ -26,7 +26,8 @@
     "generate": "stencil generate"
   },
   "dependencies": {
-    "@stencil/core": "^4.7.0"
+    "@stencil/core": "^4.7.0",
+    "axios": "^1.6.7"
   },
   "devDependencies": {
     "@stencil-community/router": "^1.0.2",
