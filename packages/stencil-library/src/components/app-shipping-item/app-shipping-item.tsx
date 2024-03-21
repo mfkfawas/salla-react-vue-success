@@ -33,7 +33,6 @@ export class AppShippingItem {
       formattedPrice = formatter.format(Number(price));
     }
     const checked = this.selectedShippingMethod.toLowerCase() === name.toLowerCase();
-    const shippingCompanyName = name === 'dhl' ? 'DHL' : name === 'fedex' ? 'FedEx' : 'ARAMEX';
 
     return (
       <li class="flex justify-between py-3">
@@ -55,7 +54,7 @@ export class AppShippingItem {
           <div class="object-cover h-auto w-10 sm:w-14">
             <img src={pic} alt="item" />
           </div>
-          <span class="font-normal text-xs">{shippingCompanyName}</span>
+          <span class="font-normal text-xs">{name}</span>
         </div>
 
         <span class="font-bold text-xs">{!formattedPrice ? 'Free' : `SAR + ${formattedPrice}`}</span>
